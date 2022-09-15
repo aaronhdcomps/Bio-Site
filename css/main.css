@@ -18,10 +18,10 @@ header {
 header a{
     color: #ffffff;
 }
-body h1 {
+body h1{
     font-size: 2.4em;
 }
-body h2 {
+body h2{
     font-size: 1.2em;
 }
 body img{
@@ -37,6 +37,22 @@ footer{
     font-size: 0.8em;
     text-align: right;
 }
+#navibar {
+    list-style-type: none;
+}
+#navibar li{
+    display: inline;
+    border-radius: 2px;
+    background-color: #222222;
+    color:#ffffff
+    padding: 5px;
+    margin: 0px;
+}
+#navibar a:hover{
+   color: #222222;
+   background-color: #ffffff; 
+}
+
 .segm {
     display: block;
     border-style: groove;
@@ -55,9 +71,14 @@ footer{
     text-align: justify;
     padding: 0.2em 2.4em 0.8em 2.4em;
 }
-#Wikilink {
+.highlight {
     color: #5da9ff;
     background-color: transparent;
 }
 .emph {font-weight: bold;
 }
+a:link {
+    text-decoration: none;
+}
+
+
